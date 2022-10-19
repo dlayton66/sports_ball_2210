@@ -7,5 +7,5 @@ class Player
     @first_name = name[0,name.index(" ")]
     @last_name = name[name.index(" ")+1,name.length]
     @total_cost = monthly_cost * contract_length
-  end
+  end 
 end

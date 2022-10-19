@@ -37,4 +37,10 @@ RSpec.describe Player do
 
     expect(player.total_cost).to eq(36000000)
   end
+
+  it 'initializes nickname to nil' do
+    player = Player.new("Michael Palledorous" , 1000000, 36)
+
+    expect(player.nickname).to be nil
+  end
 end
